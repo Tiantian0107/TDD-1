@@ -18,7 +18,7 @@ class NewVisitorTest(unittest.TestCase):
         # she notices the page title and header mention to-do lists
         self.assertIn('To-Do', self.browser.title)
         self.fail('Finish the test!')
-        # commit
+        # commit2
 
 if __name__ == '__main__':
    unittest.main(warnings='ignore')
